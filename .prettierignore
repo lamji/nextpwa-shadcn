@@ -1,0 +1,9 @@
+ruby
+CopyEdit
+.next
+node_modules
+public
+dist
+build
+coverage
+
