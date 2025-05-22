@@ -2,7 +2,9 @@ import type { NextConfig } from 'next';
 import withPWA from 'next-pwa';
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    domains: ['images.unsplash.com', 'source.unsplash.com'],
+  },
 };
 
 const pwaConfig = withPWA({

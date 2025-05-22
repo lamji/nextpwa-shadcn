@@ -37,6 +37,9 @@ export const viewport: Viewport = {
   themeColor: [{ media: '(prefers-color-scheme: light)', color: '#ffffff' }, { media: '(prefers-color-scheme: dark)', color: '#ffffff' }],
 };
 
+import Nav from "@/components/nav";
+import Footer from "@/components/footer";
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -60,7 +63,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <Nav />
         {children}
+        <Footer />
       </body>
     </html>
   );
