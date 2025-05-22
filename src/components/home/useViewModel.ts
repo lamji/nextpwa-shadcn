@@ -4,7 +4,9 @@
  */
 
 export default function useViewModel() {
+  const showTestimonials:boolean=true
   return {
-    data:["index"]
+    data:["index"],
+    showTestimonials
   }
 }
