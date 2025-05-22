@@ -3,7 +3,7 @@ import PwaInstallPromptWrapper from "@/components/pwa/PwaInstallPromptWrapper";
 import Hero from "@/components/home";
 
 export default function Home() {
-  const showPromptes:boolean=false
+  const showPromptes:boolean=true
   return (
     <div>
       {/* PWA Install Prompt */}
