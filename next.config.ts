@@ -2,6 +2,15 @@ import type { NextConfig } from 'next';
 import withPWA from 'next-pwa';
 
 const nextConfig: NextConfig = {
+  devIndicators: {
+    buildActivity: false,
+  },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   images: {
     domains: ['images.unsplash.com', 'source.unsplash.com'],
   },

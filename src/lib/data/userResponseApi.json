@@ -1,0 +1,11 @@
+{
+  "success": true,
+  "user": {
+    "id": "68a16e7bee19bfdf95031b6a",
+    "name": "Jane Doe",
+    "email": "jane@example.com",
+    "role": "user",
+    "lastLogin": "2025-09-03T11:07:06.887Z",
+    "createdAt": "2025-08-17T05:54:03.647Z"
+  }
+}

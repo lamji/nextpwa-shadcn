@@ -2,6 +2,8 @@ import { configureStore, combineReducers } from '@reduxjs/toolkit';
 import { useDispatch, useSelector, TypedUseSelectorHook } from 'react-redux';
 import { persistReducer, persistStore } from 'redux-persist';
 import themeReducer from './features/themeSlice';
+import alertReducer from './features/alertSlice';
+import loadingReducer from './features/loadingSlice';
 import storage from 'redux-persist/lib/storage';
 
 const persistConfig = {
@@ -12,6 +14,8 @@ const persistConfig = {
 
 const rootReducer = combineReducers({
   theme: themeReducer,
+  alert: alertReducer,
+  loading: loadingReducer,
 });
 
 const persistedReducer = persistReducer(persistConfig, rootReducer);

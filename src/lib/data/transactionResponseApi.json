@@ -1,0 +1,75 @@
+{
+  "success": true,
+  "count": 2,
+  "total": 2,
+  "pagination": {
+    "page": 1,
+    "limit": 10,
+    "pages": 1
+  },
+  "data": [
+    {
+      "details": {
+        "debt": {
+          "_id": "68b2dd8776a9e1782e856458",
+          "bankName": "Chase Bank v",
+          "totalLoanAmount": 11500,
+          "totalPaidPercentage": null,
+          "isOverdue": false,
+          "remainingBalance": null,
+          "id": "68b2dd8776a9e1782e856458"
+        },
+        "paymentScheduleIndex": 0,
+        "bankReference": "TXN123450",
+        "paymentMethod": "bank_transfer"
+      },
+      "_id": "68b3bdde5597c6d32879d636",
+      "type": "payment",
+      "amount": 1000,
+      "description": "Monthly payment",
+      "status": "completed",
+      "user": {
+        "_id": "68a16e7bee19bfdf95031b6a",
+        "name": "Jane Doe",
+        "email": "jane@example.com"
+      },
+      "transactionDate": "2025-08-31T03:13:34.776Z",
+      "createdAt": "2025-08-31T03:13:34.777Z",
+      "updatedAt": "2025-08-31T03:13:34.777Z",
+      "__v": 0,
+      "formattedAmount": "$1,000.00",
+      "id": "68b3bdde5597c6d32879d636"
+    },
+    {
+      "details": {
+        "debt": {
+          "_id": "68b2dd8776a9e1782e856458",
+          "bankName": "Chase Bank v",
+          "totalLoanAmount": 11500,
+          "totalPaidPercentage": null,
+          "isOverdue": false,
+          "remainingBalance": null,
+          "id": "68b2dd8776a9e1782e856458"
+        },
+        "bankReference": "LOAN-1756552583926",
+        "paymentMethod": "bank_transfer"
+      },
+      "_id": "68b2dd8776a9e1782e85645a",
+      "type": "loan",
+      "amount": 11500,
+      "description": "Initial loan disbursement from Chase Bank v",
+      "transactionDate": "2025-05-01T00:00:00.000Z",
+      "status": "completed",
+      "user": {
+        "_id": "68a16e7bee19bfdf95031b6a",
+        "name": "Jane Doe",
+        "email": "jane@example.com"
+      },
+      "createdAt": "2025-08-30T11:16:23.928Z",
+      "updatedAt": "2025-08-30T11:16:23.928Z",
+      "__v": 0,
+      "formattedAmount": "$11,500.00",
+      "id": "68b2dd8776a9e1782e85645a"
+    }
+  ]
+}

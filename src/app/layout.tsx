@@ -14,15 +14,15 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'ScaleWeb',
-  description: 'A Progressive Web App example with Next.js',
+  title: 'Loan Management',
+  description: 'Manage loans, repayments, and customer accounts efficiently with our Loan Management app.',
   manifest: '/icons/site.webmanifest',
   appleWebApp: {
     capable: true,
     statusBarStyle: 'black',
-    title: 'ScaleWeb',
+    title: 'Loan Management',
   },
-  applicationName: 'ScaleWeb',
+  applicationName: 'Loan Management',
   formatDetection: {
     telephone: false,
   },
